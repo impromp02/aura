@@ -102,11 +102,30 @@ section article p::first-letter{
 /*media queries*/
 
 @media (max-width: 500px){
-	article{
+	header{
+		padding: 1em;
+	}
+
+	header h1{
+		text-align: center;
+		font-size: 2.5em
+	}
+	header p{
+		text-align: center;
+		font-size: 1em
+		padding: 1em;
+	}
+	.wrapper, section{
+		width: 98%;
+	}
+	div>article{
 		width: 100%;
-		margin: 2%;
+		margin-bottom: 2%;
 	}
 	.wrapper> :nth-child(odd){
 	float: none;
+	}
+	section{
+		font-size: 1em;
 	}
 }
