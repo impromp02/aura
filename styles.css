@@ -44,7 +44,7 @@ header p{
 	font-family: 'Delius', cursive;
 }
 
-article{
+div>article{
 	box-sizing: border-box;
 	width: 48%;
 	border-bottom: 2px solid #bbb;
@@ -77,9 +77,29 @@ article cite{
 	text-align: right;
 }
 
-.container{
-	position: relative;
+/*main quote*/
+
+section{
+	width: 90%;
+	margin: 1em auto 0em auto;
+	font-family: 'Delius', cursive;
+	font-size: 1.5em;
 }
+
+section > article{
+	box-sizing: border-box;
+	border-bottom: 2px solid #bbb;
+	padding: 1em;
+	background-color: rgba(204,204,204,0.27);
+	margin: 1%;
+	overflow: hidden;
+}
+
+section article p::first-letter{
+    font-size: 200%;
+}
+
+/*media queries*/
 
 @media (max-width: 500px){
 	article{
