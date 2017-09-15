@@ -24,7 +24,7 @@ footer a{
 }
 
 h1{
-	font-size: 3em;
+	font-size: 270%;
 	border-bottom: 2px solid #bbb;
 	margin:0px;
 	padding: 0em 0.2em 0em 0.15em;
@@ -33,7 +33,7 @@ h1{
 
 header p{
 	margin:0px;
-	font-size: 1.5em;
+	font-size: 150%;
 	text-align: right;
 	padding: 0.25em 0.75em 0em 0em;
 }
@@ -108,12 +108,12 @@ section article p::first-letter{
 
 	header h1{
 		text-align: center;
-		font-size: 2.5em
+		font-size: 200%;
 	}
 	header p{
 		text-align: center;
-		font-size: 1em
-		padding: 1em;
+		font-size: 100%;
+		padding: 1em 1em 0em 1em;
 	}
 	.wrapper, section{
 		width: 98%;
@@ -126,6 +126,11 @@ section article p::first-letter{
 	float: none;
 	}
 	section{
-		font-size: 1em;
+		font-size: 1.1em;
+	}
+	section img{
+		width: 50%;
+		float: none;
+		margin: auto;
 	}
 }
