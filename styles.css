@@ -109,3 +109,12 @@ article cite{
 	height: 15%;
 	opacity: ;
 } */
+
+@media (max-width: 500px){
+	article{
+		width: 100%;
+	}
+	.wrapper> :nth-child(odd){
+	float: none;
+	}
+}
