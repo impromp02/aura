@@ -1,1 +1,2 @@
-# contains files that I developed using simple css and html.
+# Aura Around
+A project I created as an HTML and CSS revision.
