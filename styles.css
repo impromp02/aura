@@ -57,7 +57,7 @@ div>article{
 .wrapper> :nth-child(odd){
 	float: left;
 	clear: both;
-	margin-bottom: 0.25%;
+	margin-bottom: 0.15%;
 }
 
 img{
@@ -125,6 +125,7 @@ section article p::first-letter{
 	}
 	.wrapper> :nth-child(odd){
 	float: none;
+	margin-bottom: 2.25%;
 	}
 	section{
 		font-size: 1.1em;
