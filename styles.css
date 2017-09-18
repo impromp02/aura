@@ -57,6 +57,7 @@ div>article{
 .wrapper> :nth-child(odd){
 	float: left;
 	clear: both;
+	margin-bottom: 0.25%;
 }
 
 img{
